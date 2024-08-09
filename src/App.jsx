@@ -7,10 +7,16 @@ import GetInTouch from "./components/GetinTouch/GetInTouch";
 import ScrollingImage from "./components/ScrollingImage/ScrollingImage";
 import Faq from "./components/Faq/Faq";
 import Member from "./components/Member/Member";
+import Navbar from "./components/Navbar/Navbar";
+import UpcomingEvents from "./components/Events/Events";
+import HomeComponent from "./components/Home/Home";
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
+      <HomeComponent />
+      <UpcomingEvents />
       <Member />
       <ScrollingImage />
       <Faq />
