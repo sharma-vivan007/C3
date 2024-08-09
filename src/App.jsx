@@ -6,10 +6,12 @@ import Contactus from "./components/ContactUs/Contactus";
 import GetInTouch from "./components/GetinTouch/GetInTouch";
 import ScrollingImage from "./components/ScrollingImage/ScrollingImage";
 import Faq from "./components/Faq/Faq";
+import Member from "./components/Member/Member";
 
 function App() {
   return (
     <div className="App">
+      <Member />
       <ScrollingImage />
       <Faq />
       <GetInTouch />

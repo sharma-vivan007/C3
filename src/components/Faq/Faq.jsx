@@ -1,52 +1,47 @@
-// export default function Faq() {
-//   return (
-//     <div>
-//       <h1>Frequently Asked Questions</h1>
-//       <
-//     </div>
-//   );
-// }
-
-import React, { useState } from "react";
-
 export default function Faq() {
-  const [activeQuestion, setActiveQuestion] = useState(null);
-
-  const questions = [
-    {
-      question: "What is the purpose of this website?",
-      answer:
-        "This website is designed to provide information and answer frequently asked questions about our company.",
-    },
-    {
-      question: "How do I contact customer support?",
-      answer:
-        "You can contact customer support by emailing us at [support@example.com](mailto:support@example.com) or by calling us at 555-555-5555.",
-    },
-    {
-      question: "What are the business hours?",
-      answer: "Our business hours are Monday through Friday, 9am to 5pm EST.",
-    },
-  ];
-
   return (
     <div>
       <h1>Frequently Asked Questions</h1>
-      {questions.map((question, index) => (
-        <div key={index}>
-          <button
-            onClick={() => setActiveQuestion(index)}
-            className={`faq-question ${
-              activeQuestion === index ? "active" : ""
-            }`}
+      <div
+        id="bootstrap-accordion_12"
+        class="panel-group accordionStyles accordion"
+        role="tablist"
+        aria-multiselectable="true"
+      >
+        <div class="card">
+          <div class="card-header" role="tab" id="headingOne">
+            <a
+              role="button"
+              class="panel-title collapsed"
+              data-toggle="collapse"
+              data-bs-toggle="collapse"
+              data-core=""
+              href="#collapse1_12"
+              aria-expanded="false"
+              aria-controls="collapse1"
+            >
+              <h4 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-4">
+                What is the Programming Club about?
+              </h4>
+              <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+            </a>
+          </div>
+          <div
+            id="collapse1_12"
+            class="panel-collapse noScroll collapse"
+            role="tabpanel"
+            aria-labelledby="headingOne"
+            data-parent="#accordion"
+            data-bs-parent="#bootstrap-accordion_12"
           >
-            {question.question}
-          </button>
-          {activeQuestion === index && (
-            <div className="faq-answer">{question.answer}</div>
-          )}
+            <div class="panel-body">
+              <p class="mbr-fonts-style panel-text display-7">
+                We’re the coolest coding crew at CTAE!
+              </p>
+            </div>
+          </div>
         </div>
-      ))}
+      </div>
     </div>
   );
 }
