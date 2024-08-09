@@ -5,17 +5,17 @@ export default function Member() {
     <div>
       <h3>Our Squad!!!</h3>
       <Container>
-        <img src="https://picsum.photos/200/300" />
+        <img src="src\assets\home.jpg" />
         <p>Name</p>
         <p>Designation</p>
       </Container>
       <Container>
-        <img src="https://picsum.photos/200/300" />
+        <img src="src\assets\home.jpg" />
         <p>Name</p>
         <p>Designation</p>
       </Container>
       <Container>
-        <img src="https://picsum.photos/200/300" />
+        <img src="src\assets\home.jpg" />
         <p>Name</p>
         <p>Designation</p>
       </Container>
