@@ -1,0 +1,89 @@
+.get-in-touch {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .get-in-touch h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .get-in-touch-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .get-in-touch-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .get-in-touch-form input,
+  .get-in-touch-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .get-in-touch-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .get-in-touch-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .get-in-touch {
+      padding: 15px;
+    }
+  
+    .get-in-touch h2 {
+      font-size: 1.5rem;
+    }
+  
+    .get-in-touch-form input,
+    .get-in-touch-form textarea {
+      font-size: 0.9rem;
+    }
+  
+    .get-in-touch-form button {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .get-in-touch {
+      padding: 10px;
+    }
+  
+    .get-in-touch h2 {
+      font-size: 1.2rem;
+    }
+  
+    .get-in-touch-form input,
+    .get-in-touch-form textarea {
+      font-size: 0.8rem;
+    }
+  
+    .get-in-touch-form button {
+      font-size: 0.8rem;
+    }
+  }

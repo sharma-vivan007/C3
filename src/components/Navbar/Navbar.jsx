@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import logo from "../../assets/logo.jpeg";
 
 const Navbar = () => {
   return (
@@ -7,13 +8,13 @@ const Navbar = () => {
       <div className="container d-flex align-items-center">
         <a className="navbar-brand d-flex align-items-center" href="#">
           <img
-            src=""
+            src={logo}
             alt="Logo"
             width="30"
             height="24"
             className="d-inline-block align-text-top"
           />
-          Navbar
+          C3
         </a>
         <button
           className="navbar-toggler"

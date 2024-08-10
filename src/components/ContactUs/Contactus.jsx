@@ -1,8 +1,9 @@
 import Container from "../Container/Container";
+import "./ContactUs.css";
 
 export default function Contactus() {
   return (
-    <div>
+    <div className="contact-us">
       <h1>Contact Us</h1>
       <Container>
         <p>

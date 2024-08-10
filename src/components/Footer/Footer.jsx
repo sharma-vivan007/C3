@@ -1,10 +1,11 @@
 import React from "react";
 import Container from "../Container/Container";
 import Contactus from "../ContactUs/Contactus";
+import "./Footer.css";
 
 export default function Footer() {
   return (
-    <div>
+    <div className="Footer">
       <Container>
         <ul>
           <li>

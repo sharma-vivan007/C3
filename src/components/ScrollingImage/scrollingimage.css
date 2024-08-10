@@ -1,0 +1,5 @@
+img {
+    width: 400px; /* Sets the width to 400 pixels */
+    height: 300px; /* Sets the height to 300 pixels */
+    object-fit: cover; /* Optional: Ensures the image covers the entire area */
+  }
