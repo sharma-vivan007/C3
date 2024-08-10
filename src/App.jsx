@@ -12,6 +12,7 @@ import Member from "./components/Member/Member";
 import Navbar from "./components/Navbar/Navbar";
 import UpcomingEvents from "./components/Events/Events";
 import HomeComponent from "./components/Home/Home";
+import FAQ from "./components/Faq/Faq";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
       <UpcomingEvents />
       <Member />
       <ScrollingImage />
-      <Faq />
+      <FAQ />
       <GetInTouch />
       <Footer />
     </div>

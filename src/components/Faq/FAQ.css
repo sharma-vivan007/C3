@@ -1,0 +1,76 @@
+/* src/Component/FAQ/FAQ.css */
+
+.faq-container {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  transition: background-color 0.3s ease;
+}
+
+.faq-item:hover {
+  background-color: #f1f1f1;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.faq-question:hover {
+  background-color: #007bff;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+  padding: 0 10px;
+}
+
+.faq-answer.show {
+  max-height: 200px; /* Adjust based on the expected answer length */
+  padding: 10px 10px;
+}
+
+.faq-question h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.faq-question span {
+  font-size: 1.5em;
+  transition: transform 0.3s ease;
+}
+
+.faq-answer p {
+  margin: 0;
+  font-size: 1em;
+  color: #555;
+}
+
+.faq-question span.rotate {
+  transform: rotate(180deg);
+}
+
+/* src/Component/FAQ/FAQ.css */
+
+.faq-title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
